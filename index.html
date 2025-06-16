@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Tickets & Audios | Museum Tickets & Tours</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Language Toggle -->
+    <div class="language-toggle">
+        <button id="lang-en" class="active">EN</button>
+        <button id="lang-tr">TR</button>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-rocket"></i>
+                <span class="en">Cosmic Tickets</span>
+                <span class="tr" style="display:none">Cosmic Biletler</span>
+            </div>
+            <div class="nav-links">
+                <a href="#" class="en">Home</a>
+                <a href="#" class="tr" style="display:none">Ana Sayfa</a>
+                <a href="#" class="en">Tickets</a>
+                <a href="#" class="tr" style="display:none">Biletler</a>
+                <a href="#" class="en">Audio Guides</a>
+                <a href="#" class="tr" style="display:none">Sesli Rehberler</a>
+                <a href="#" class="en">Tours</a>
+                <a href="#" class="tr" style="display:none">Turlar</a>
+                <a href="#" class="en">Cities</a>
+                <a href="#" class="tr" style="display:none">Şehirler</a>
+                <a href="#" class="en">Contact</a>
+                <a href="#" class="tr" style="display:none">İletişim</a>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="en">Explore World's Finest Museums</h1>
+            <h1 class="tr" style="display:none">Dünyanın En İyi Müzelerini Keşfedin</h1>
+            <p class="en">Skip the lines with our fast-track tickets and immerse yourself in art with our expert audio guides</p>
+            <p class="tr" style="display:none">Hızlı giriş biletlerimizle sıra beklemeden girin ve uzman sesli rehberlerimizle sanatın içinde kaybolun</p>
+            <div class="search-bar">
+                <input type="text" class="en" placeholder="Search museums, cities...">
+                <input type="text" class="tr" placeholder="Müzeler, şehirler ara..." style="display:none">
+                <button class="en">Search</button>
+                <button class="tr" style="display:none">Ara</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Tickets -->
+    <section class="featured">
+        <div class="section-title">
+            <h2 class="en">Featured Tickets</h2>
+            <h2 class="tr" style="display:none">Öne Çıkan Biletler</h2>
+        </div>
+        <div class="ticket-cards">
+            <!-- Card 1 -->
+            <div class="ticket-card">
+                <div class="ticket-img">
+                    <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Louvre Museum">
+                </div>
+                <div class="ticket-info">
+                    <h3 class="en">Louvre Museum</h3>
+                    <h3 class="tr" style="display:none">Louvre Müzesi</h3>
+                    <p class="en">Skip-the-line ticket with audio guide included</p>
+                    <p class="tr" style="display:none">Sıra atlama bileti ve sesli rehber dahil</p>
+                    <div class="ticket-price">
+                        <span class="price">€24</span>
+                        <button class="book-btn en">Book Now</button>
+                        <button class="book-btn tr" style="display:none">Rezervasyon</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="ticket-card">
+                <div class="ticket-img">
+                    <img src="https://images.unsplash.com/photo-1587334274328-64186a80aeee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="British Museum">
+                </div>
+                <div class="ticket-info">
+                    <h3 class="en">British Museum</h3>
+                    <h3 class="tr" style="display:none">British Müzesi</h3>
+                    <p class="en">Fast-track entry with optional audio guide</p>
+                    <p class="tr" style="display:none">Hızlı giriş ve opsiyonel sesli rehber</p>
+                    <div class="ticket-price">
+                        <span class="price">£18</span>
+                        <button class="book-btn en">Book Now</button>
+                        <button class="book-btn tr" style="display:none">Rezervasyon</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="ticket-card">
+                <div class="ticket-img">
+                    <img src="https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Vatican Museums">
+                </div>
+                <div class="ticket-info">
+                    <h3 class="en">Vatican Museums</h3>
+                    <h3 class="tr" style="display:none">Vatikan Müzeleri</h3>
+                    <p class="en">Early access with Sistine Chapel included</p>
+                    <p class="tr" style="display:none">Erken giriş ve Sistina Şapeli dahil</p>
+                    <div class="ticket-price">
+                        <span class="price">€29</span>
+                        <button class="book-btn en">Book Now</button>
+                        <button class="book-btn tr" style="display:none">Rezervasyon</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Audio Guides -->
+    <section class="audio-guides">
+        <div class="section-title">
+            <h2 class="en">Audio Guides</h2>
+            <h2 class="tr" style="display:none">Sesli Rehberler</h2>
+            <p class="en">Enhance your visit with our expert commentary</p>
+            <p class="tr" style="display:none">Uzman yorumlarımızla ziyaretinizi zenginleştirin</p>
+        </div>
+        <div class="audio-cards">
+            <!-- Audio 1 -->
+            <div class="audio-card">
+                <div class="audio-img">
+                    <img src="https://images.unsplash.com/photo-1551029506-0807df4e2031?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1634&q=80" alt="Renaissance Art">
+                    <div class="play-btn">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="audio-info">
+                    <h3 class="en">Renaissance Masterpieces</h3>
+                    <h3 class="tr" style="display:none">Rönesans Şaheserleri</h3>
+                    <p class="en">2.5 hours | 45 artworks</p>
+                    <p class="tr" style="display:none">2.5 saat | 45 sanat eseri</p>
+                    <div class="ticket-price">
+                        <span class="price">€9</span>
+                        <button class="book-btn en">Add to Cart</button>
+                        <button class="book-btn tr" style="display:none">Sepete Ekle</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Audio 2 -->
+            <div class="audio-card">
+                <div class="audio-img">
+                    <img src="https://images.unsplash.com/photo-1534447677768-be436bb09401?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1494&q=80" alt="Ancient Egypt">
+                    <div class="play-btn">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="audio-info">
+                    <h3 class="en">Ancient Egypt</h3>
+                    <h3 class="tr" style="display:none">Antik Mısır</h3>
+                    <p class="en">2 hours | 35 artifacts</p>
+                    <p class="tr" style="display:none">2 saat | 35 eser</p>
+                    <div class="ticket-price">
+                        <span class="price">€7</span>
+                        <button class="book-btn en">Add to Cart</button>
+                        <button class="book-btn tr" style="display:none">Sepete Ekle</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Audio 3 -->
+            <div class="audio-card">
+                <div class="audio-img">
+                    <img src="https://images.unsplash.com/photo-1575505586569-646b2ca898fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1586&q=80" alt="Modern Art">
+                    <div class="play-btn">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="audio-info">
+                    <h3 class="en">Modern Art Movement</h3>
+                    <h3 class="tr" style="display:none">Modern Sanat Akımı</h3>
+                    <p class="en">1.5 hours | 30 artworks</p>
+                    <p class="tr" style="display:none">1.5 saat | 30 sanat eseri</p>
+                    <div class="ticket-price">
+                        <span class="price">€8</span>
+                        <button class="book-btn en">Add to Cart</button>
+                        <button class="book-btn tr" style="display:none">Sepete Ekle</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Audio 4 -->
+            <div class="audio-card">
+                <div class="audio-img">
+                    <img src="https://images.unsplash.com/photo-1534447677768-be436bb09401?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1494&q=80" alt="Impressionism">
+                    <div class="play-btn">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="audio-info">
+                    <h3 class="en">Impressionism</h3>
+                    <h3 class="tr" style="display:none">Empresyonizm</h3>
+                    <p class="en">2 hours | 40 artworks</p>
+                    <p class="tr" style="display:none">2 saat | 40 sanat eseri</p>
+                    <div class="ticket-price">
+                        <span class="price">€9</span>
+                        <button class="book-btn en">Add to Cart</button>
+                        <button class="book-btn tr" style="display:none">Sepete Ekle</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Cities -->
+    <section class="cities">
+        <div class="section-title">
+            <h2 class="en">Popular Cities</h2>
+            <h2 class="tr" style="display:none">Popüler Şehirler</h2>
+            <p class="en">Explore museums in these iconic destinations</p>
+            <p class="tr" style="display:none">Bu ikonik destinasyonlardaki müzeleri keşfedin</p>
+        </div>
+        <div class="city-cards">
+            <!-- City 1 -->
+            <div class="city-card">
+                <div class="city-img">
+                    <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1520&q=80" alt="Paris">
+                </div>
+                <div class="city-name en">Paris</div>
+                <div class="city-name tr" style="display:none">Paris</div>
+            </div>
+            <!-- City 2 -->
+            <div class="city-card">
+                <div class="city-img">
+                    <img src="https://images.unsplash.com/photo-1486299267070-83823f5448dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="London">
+                </div>
+                <div class="city-name en">London</div>
+                <div class="city-name tr" style="display:none">Londra</div>
+            </div>
+            <!-- City 3 -->
+            <div class="city-card">
+                <div class="city-img">
+                    <img src="https://images.unsplash.com/photo-1531572753322-ad063cecc140?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1476&q=80" alt="Rome">
+                </div>
+                <div class="city-name en">Rome</div>
+                <div class="city-name tr" style="display:none">Roma</div>
+            </div>
+            <!-- City 4 -->
+            <div class="city-card">
+                <div class="city-img">
+                    <img src="https://images.unsplash.com/photo-1549144511-f099e773c147?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80" alt="New York">
+                </div>
+                <div class="city-name en">New York</div>
+                <div class="city-name tr" style="display:none">New York</div>
+            </div>
+            <!-- City 5 -->
+            <div class="city-card">
+                <div class="city-img">
+                    <img src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Istanbul">
+                </div>
+                <div class="city-name en">Istanbul</div>
+                <div class="city-name tr" style="display:none">İstanbul</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="section-title">
+            <h2 class="en">What Our Visitors Say</h2>
+            <h2 class="tr" style="display:none">Ziyaretçilerimiz Ne Diyor?</h2>
+        </div>
+        <div class="testimonial-cards">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-card">
+                <div class="testimonial-text en">
+                    The audio guide made our Louvre visit unforgettable. So much better than reading plaques!
+                </div>
+                <div class="testimonial-text tr" style="display:none">
+                    Sesli rehber Louvre ziyaretimizi unutulmaz kıldı. Plaketleri okumaktan çok daha iyi!
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-img">
+                        <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Sarah J.">
+                    </div>
+                    <div class="author-info">
+                        <h4 class="en">Sarah J.</h4>
+                        <h4 class="tr" style="display:none">Sarah J.</h4>
+                        <p class="en">London, UK</p>
+                        <p class="tr" style="display:none">Londra, İngiltere</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial 2 -->
+            <div class="testimonial-card">
+                <div class="testimonial-text en">
+                    Skipped 2-hour lines at the Vatican! Worth every penny for the early access ticket.
+                </div>
+                <div class="testimonial-text tr" style="display:none">
+                    Vatikan'da 2 saatlik sıraları atladık! Erken giriş bileti için her kuruşa değer.
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-img">
+                        <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Michael T.">
+                    </div>
+                    <div class="author-info">
+                        <h4 class="en">Michael T.</h4>
+                        <h4 class="tr" style="display:none">Michael T.</h4>
+                        <p class="en">Toronto, Canada</p>
+                        <p class="tr" style="display:none">Toronto, Kanada</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial 3 -->
+            <div class="testimonial-card">
+                <div class="testimonial-text en">
+                    The Renaissance audio tour was like having a personal art historian. Will use again!
+                </div>
+                <div class="testimonial-text tr" style="display:none">
+                    Rönesans sesli turu kişisel bir sanat tarihçisine sahip olmak gibiydi. Tekrar kullanacağım!
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-img">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Elena R.">
+                    </div>
+                    <div class="author-info">
+                        <h4 class="en">Elena R.</h4>
+                        <h4 class="tr" style="display:none">Elena R.</h4>
+                        <p class="en">Madrid, Spain</p>
+                        <p class="tr" style="display:none">Madrid, İspanya</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <h2 class="en">Ready to Explore?</h2>
+        <h2 class="tr" style="display:none">Keşfetmeye Hazır mısınız?</h2>
+        <p class="en">Join thousands of travelers enjoying seamless museum experiences worldwide</p>
+        <p class="tr" style="display:none">Dünya çapında sorunsuz müze deneyimlerinin keyfini çıkaran binlerce gezgine katılın</p>
+        <button class="cta-btn pulse en">Book Tickets Now</button>
+        <button class="cta-btn pulse tr" style="display:none">Biletleri Şimdi Al</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3 class="en">Cosmic Tickets</h3>
+                <h3 class="tr" style="display:none">Cosmic Biletler</h3>
+                <p class="en">Your gateway to the world's finest cultural experiences</p>
+                <p class="tr" style="display:none">Dünyanın en iyi kültürel deneyimlerine açılan kapınız</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3 class="en">Quick Links</h3>
+                <h3 class="tr" style="display:none">Hızlı Linkler</h3>
+                <ul>
+                    <li><a href="#" class="en">Home</a><a href="#" class="tr" style="display:none">Ana Sayfa</a></li>
+                    <li><a href="#" class="en">About Us</a><a href="#" class="tr" style="display:none">Hakkımızda</a></li>
+                    <li><a href="#" class="en">Tickets</a><a href="#" class="tr" style="display:none">Biletler</a></li>
+                    <li><a href="#" class="en">Audio Guides</a><a href="#" class="tr" style="display:none">Sesli Rehberler</a></li>
+                    <li><a href="#" class="en">Contact</a><a href="#" class="tr" style="display:none">İletişim</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3 class="en">Support</h3>
+                <h3 class="tr" style="display:none">Destek</h3>
+                <ul>
+                    <li><a href="#" class="en">FAQs</a><a href="#" class="tr" style="display:none">SSS</a></li>
+                    <li><a href="#" class="en">Help Center</a><a href="#" class="tr" style="display:none">Yardım Merkezi</a></li>
+                    <li><a href="#" class="en">Cancellation Policy</a><a href="#" class="tr" style="display:none">İptal Politikası</a></li>
+                    <li><a href="#" class="en">Privacy Policy</a><a href="#" class="tr" style="display:none">Gizlilik Politikası</a></li>
+                    <li><a href="#" class="en">Terms of Service</a><a href="#" class="tr" style="display:none">Kullanım Şartları</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3 class="en">Contact Us</h3>
+                <h3 class="tr" style="display:none">Bize Ulaşın</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> <span class="en">123 Museum St, Paris</span><span class="tr" style="display:none">123 Müze Sokak, Paris</span></li>
+                    <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                    <li><i class="fas fa-envelope"></i> info@cosmic-tickets.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="en">&copy; 2025 Cosmic Tickets. All rights reserved.</p>
+            <p class="tr" style="display:none">&copy; 2023 Cosmic Biletler. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
